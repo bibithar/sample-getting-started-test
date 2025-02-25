@@ -26,7 +26,7 @@ import java.io.InputStreamReader;
 import org.eclipse.microprofile.config.spi.ConfigSource;
 
 public class CustomConfigSource implements ConfigSource {
-
+  //Comment -just to test
   String fileLocation = "META-INF/CustomConfigSource.json";
 
   @Override
