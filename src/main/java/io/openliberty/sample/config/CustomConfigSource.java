@@ -28,7 +28,7 @@ import org.eclipse.microprofile.config.spi.ConfigSource;
 public class CustomConfigSource implements ConfigSource {
 
   String fileLocation = "META-INF/CustomConfigSource.json";
-
+  //comment test PR
   @Override
   public int getOrdinal() {
     return Integer.parseInt(getProperties().get("config_ordinal"));
