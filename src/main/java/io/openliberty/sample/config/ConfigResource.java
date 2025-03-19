@@ -57,5 +57,5 @@ public class ConfigResource {
     }
     return propertiesBuilder.build();
   }
-//test PR
+//test PR -api
 }
